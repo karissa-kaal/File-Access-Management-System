@@ -35,7 +35,7 @@ Choose the desired option by entering the corresponding number and follow the pr
 - The file access management system uses a hash table to store file information. Each file is represented by a `fileNode` object, which contains the file ID, a priority queue (`pQueue`) of users waiting for access, and a vector of users currently accessing the file.
 - The `pQueue` class is a template-based priority queue that handles user information based on priority.
 - The `repositoryOfFiles` class manages the hash table and provides functions to load data, print the table, search for files, insert files, and delete files.
-- The program reads file data from a text file named `file.txt`. Make sure to format the file properly with each line containing the file ID, user ID, priority, and access type.
+- The program reads file data from a text file named `file.txt`. Make sure to format the file properly with each line containing the file ID, user ID, priority, and access type. Sample file is attached for reference.
 - The program uses simple console input/output for interaction.
 
 Please note that this project has a specific scope.
